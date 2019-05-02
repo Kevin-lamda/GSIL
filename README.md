@@ -74,6 +74,13 @@ tokens : your_token
         "meilishuo": {
             "meilishuo.org": {},
             "meilishuo.io": {}
+        },
+        "google": {
+            # key:   com.google+exemple
+            "\"com.google\"" "\"exemple\"":{
+                "mode": "normal-match",
+                "ext": "java"
+            }
         }
     }
 }
